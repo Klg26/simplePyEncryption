@@ -47,8 +47,10 @@ print("Your Message: ")
 print(str(fEncryptionMessage)[1:-1])
 f.write("%s\n" % fEncryptionMessage)
 print("Information successfully saved to Info.txt file.")
+
 # Close File
 f.close()
+
 # Close Program
 closeInput = input("Press ENTER to exit")
 print("Closing...")
