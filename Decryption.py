@@ -37,7 +37,7 @@ while (x < decryptedL):
 # Print Info To Screen And File
 print(''.join(message))
 f.write(''.join(message))
-print("Information successfully saved to Info.txt file.")
+print("Information successfully saved to Results.txt file.")
 
 # Close File
 f.close()
