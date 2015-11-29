@@ -38,8 +38,10 @@ while (x < decryptedL):
 print(''.join(message))
 f.write(''.join(message))
 print("Information successfully saved to Info.txt file.")
+
 # Close File
 f.close()
+
 # Close Program
 closeInput = input("Press ENTER to exit")
 print("Closing...")
